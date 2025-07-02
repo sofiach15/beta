@@ -1,20 +1,8 @@
-import os
+#script: Get user name and print the wlcome.
 
-def calc(x, y):
-    #Process
-    add = x + y
-    return add
+def welcome():
+    user_name = input("Please, enter your name: ")
+    print(f"Hello {user_name}")
 
-###########Main############
-os.system('clear')
-#Inputs
-num1 = int(input("Enter number 1: "))
-num2 = int(input("Enter number 2: "))
-
-ans = calc(num1, num2)
-
-#Outputs form 1
-print(f"The addition is: {ans}")
-
-#Outputs form 2
-print("The addition is: ", calc(num1, num2))
+###Main#######################################
+welcome()
